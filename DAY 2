@@ -1,0 +1,7 @@
+#accept number from user and print sum which doesnt exceed 300
+total=0
+while total<=300:
+    num=int(input("enter the number"))
+    total=total+num
+    print("current total",total)
+print("sum exceeded 300 .program stop ")
